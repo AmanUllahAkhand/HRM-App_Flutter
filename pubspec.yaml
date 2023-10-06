@@ -1,0 +1,74 @@
+name: hrm_app
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  get: ^4.6.5
+  shared_preferences: ^2.0.15
+  table_calendar: ^3.0.9
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.4
+  intl: ^0.18.0
+  flutter_datetime_picker: ^1.5.1
+  analog_clock: ^0.1.1
+  image_picker: ^0.8.4+4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+
+
+# The following section is specific to Flutter.
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - images/akash.jpeg
+    - images/aman.jpeg
+    - images/noman.jpeg
+    - images/tanvir.jpeg
+    - images/performance.jpeg
+    - images/leave.jpeg
+    - images/organization.jpeg
+    - images/timesheet.png
+    - images/attendance.png
+    - images/files.png
+    - images/employees.png
+    - images/profile.png
+    - images/worksheet.jpeg
+    - images/clock.jpeg
+    - images/Employee/Alimul.png
+    - images/Employee/aman.png
+    - images/Employee/habib.jpeg
+    - images/Employee/mahede.png
+    - images/Employee/nazim.png
+    - images/Employee/nishad.png
+    - images/Employee/rakib.png
+    - images/Employee/ratul.png
+    - images/Employee/tupan.png
+  #   - images/a_dot_ham.jpeg
+
